@@ -1,0 +1,165 @@
+* a{
+    text-decoration: none;
+    color: #f855a7;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* a:hover{
+    font-size:20px ;
+}
+
+header a:hover{
+    color: blue;
+   
+} */
+/* ________________________________nav-1__________________________________________________ */
+.nav-1 a{
+    
+    margin: 10px;
+    color: #343a40;
+    font-size: 17px
+}
+
+.nav-1{
+    background-color: #f855a7;
+    width: 100%;
+}
+.row_a{
+    margin: 2%;
+}
+
+/* _____________________________________nav-2________________________________________________ */
+.nav-2 #sign-in{
+    background-color: #fb86c0;
+}
+.nav-2 a{
+  color: black;
+  margin: 2%;
+}
+.nav-2 #nykaa{
+    height: 64%;
+    width: 53%;
+    margin: 1%;
+}
+.nav-2 input{
+    height: 60%;
+    margin:1%;
+    border-radius: 7px;
+}
+.nav-2{
+    position: sticky;
+}
+
+
+/* _______________________________nav-3_____________________________________________ */
+.nav-3{
+    margin-left: 25%;
+    margin-right: 12%;
+}
+.nav-3 a{
+    color: #343a40;
+}
+/* __________________________________middle_____________________________________________________ */
+.container-fluid #mainheading{
+    font-size: 25px;
+}
+.container #middle p{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(246, 58, 95);
+}
+.container #middle span{
+    font-size: 28px;
+    color: rgb(149, 149, 248);
+    margin-left: 3%;
+}
+/* .offersmain img:hover{
+    height: 400px;
+    width: 100%;
+    box-shadow: #343a40;
+} */
+.offersmain{
+    margin: 3%;
+}
+.offers a{
+    text-decoration: none;
+    color: #f855a7;
+    font-size: 100%;
+    
+}
+.offers p{
+    color: #343a40;
+    
+}
+
+/* ___________________________2nd midle___________________________________________________ */
+.heding-2{
+    font-size: 30px;
+    color: #343a40;
+    margin: 2%;
+}
+.offers{
+    border:1px solid #f855a7;
+}
+.offersmain-2{
+    margin: 2%;
+}
+/* _________________________3rd middle___________________________________________________________ */
+.heding-3{
+    font-size: 30px;
+    color: #343a40;
+    margin-top: 3%;
+}
+
+.offers-1{
+    border:1px solid #f855a7;
+    font-size: 20px;
+    color: #f855a7;
+}
+
+#box-images{
+    display: flex;
+    justify-content: center;
+}
+.box-container{
+    margin: 1%;
+}
+#circle_image{
+   display: flex;
+   justify-content: center;
+   border:2px solid #f855a7;
+}
+
+/* ___________________________footer-1____________________________________ */
+
+#footer-1 {
+    background-color: #fb86c0;
+    font-size: 12px;
+}
+
+/* _______________________________________footer-2________________________________________ */
+
+#heading-footer{
+    margin-left: 3%;
+    color: #fff;
+}
+#footer-2{
+    background-color: #a1a8ae;
+}
+#footer-2 h5,h6{
+    color: #fff;
+}
+
+footer li{
+    fill: #fff;
+}
+
+
+svg{
+    right: 0%;
+}
+

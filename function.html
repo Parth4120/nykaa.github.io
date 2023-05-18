@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <div class="container">
+        timeis
+        <span id="time">
+
+        </span>
+    </div>
+    <!-- <div class="container" id="main">
+        <ul id="nav">
+            <li>home</li>
+            <li>about</li>
+            <li>service</li>
+            <li>contact us</li>
+        </ul>
+    </div> -->
+    <!-- <div class="container">
+        <h1>this is heading</h1>
+        <p  id="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos libero adipisci ipsa. At aliquid repellendus provident, eos aliquam libero rerum ad obcaecati omnis optio autem suscipit tenetur recusandae, unde inventore error deserunt beatae accusamus dolor commodi! Sint atque, similique vitae optio consequuntur perspiciatis odit, cumque corrupti explicabo error ab provident earum distinctio odio laboriosam corporis veritatis, possimus iure fugit maxime officia necessitatibus a. Voluptatum minima repudiandae adipisci consequuntur saepe, fuga, veniam fugit nihil nostrum eligendi ratione provident ab autem unde molestiae ex velit repellat! Illum nobis expedita nulla aspernatur inventore excepturi tenetur. Quo enim ex voluptatibus quia totam voluptatem doloremque?</p>
+        
+    </div>
+    <button id="btn" onclick="togglehide()">show/hide</button> -->
+    <script>
+        function greet(name){
+            console.log("good"+name);
+        }
+        // timeout=setTimeout(greet ,5000, "parth") ;
+        // console.log(timeout)
+        // clearTimeout(timeout)
+            
+        // setInterval(greet,1000,"parth")
+
+        function displaytime(){
+            time=new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML=time;
+        }
+        setInterval(displaytime,1000);
+       
+//            let para=document.getElementById('para');
+//            para.addEventListener('mouseover',function run(){
+//             alert('mouse inside');
+//            })
+// function togglehide(){
+//     let btn=document.getElementById('btn');
+//     let para=document.getElementById('para');
+//     if(para.style.display !='none'){
+//     para.style.display='none'
+//     }
+//     else{
+//         para.style.display='block'
+//     }
+// }
+
+        // let main=document.getElementById('main');
+        // console.log(main);
+        // let nav=document.getElementById('nav')
+        // console.log(nav);
+
+
+
+    //    let a= alert("this is the man")
+    //     console.log(a)
+
+
+    // let age=prompt("what is your age");
+    // if(age<18){
+    //     console.log("you are not elegible")
+    // }
+    // else{
+    //     console.log("you are elegibal")
+    // }
+    //     console.log(name);
+
+    // let deletepost=confirm("do youy really delete this ")
+    // if(deletepost){
+    //     console.log("delete success")
+    // }
+    // else{
+    //     console.log("not delete")
+    // }
+    // console.log(deletepost)
+
+//     console.log("name is parth")
+// for(i=0;i<3;i++){
+//     console.log("number is"+i)  
+// }
+
+let fri=["manan","jash","dev","neel","ronak"];
+// 
+// fri.forEach(function f(elemrnt){
+//     console.log("hrllo"+elemrnt);
+// });
+
+// 
+
+// let employee={
+//     name:"manan",
+//     salary:20,
+//     clg:"parul"
+// }
+// for(key in employee){
+//     console.log(`the ${key} of employee is ${employee[key]}`);
+// }
+
+
+
+
+
+</script>
+</body>
+</html>
